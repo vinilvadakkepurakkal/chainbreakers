@@ -9,11 +9,12 @@ In addition, there is a need for getting the insight quickly, which can accelera
 
  ![alt text](https://github.com/vinilvadakkepurakkal/chainbreakers/blob/master/pic.jpg?raw=true)
 
- Approach:
-Parse the text from the body of each document using Natural Language Processing (NLP).
-Turn each document instance  di  into a feature vector  Xi  using Term Frequency–inverse Document Frequency (TF-IDF).
-Apply Dimensionality Reduction to each feature vector  Xi  using t-Distributed Stochastic Neighbor Embedding (t-SNE) to cluster similar research articles in the two dimensional plane  X  embedding  Y1 .
-Use Principal Component Analysis (PCA) to project down the dimensions of  X  to a number of dimensions that will keep .95 variance while removing noise and outliers in embedding  Y2 .
-Apply k-means clustering on  Y2 , where  k  is 20, to label each cluster on  Y1 .
-Apply Topic Modeling on  X  using Latent Dirichlet Allocation (LDA) to discover keywords from each cluster.
-Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD).
+ Approach for NLP:
+ 
+ -->>> 
+ -->>>
+ -->>>
+ -->>>
+ 
+ 
+ Approach for ChatBot
