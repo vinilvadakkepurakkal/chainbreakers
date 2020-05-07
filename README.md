@@ -10,21 +10,28 @@ In addition, there is a need for getting the insight quickly, which can accelera
 **Approach**:
 
 <<<<<<< HEAD
- Approach for NLP:
  
- -->>> 
- -->>>
- -->>>
- -->>>
- 
- 
- Approach for ChatBot
 =======
-Parse the text from the body of each document using Natural Language Processing (NLP).
-Turn each document instance  di  into a feature vector  Xi  using Term Frequency–inverse Document Frequency (TF-IDF).
-Apply Dimensionality Reduction to each feature vector  Xi  using t-Distributed Stochastic Neighbor Embedding (t-SNE) to cluster similar research articles in the two dimensional plane  X  embedding  Y1 .
-Use Principal Component Analysis (PCA) to project down the dimensions of  X  to a number of dimensions that will keep .95 variance while removing noise and outliers in embedding  Y2 .
-Apply k-means clustering on  Y2 , where  k  is 20, to label each cluster on  Y1 .
-Apply Topic Modeling on  X  using Latent Dirichlet Allocation (LDA) to discover keywords from each cluster.
-Investigate the clusters visually on the plot, zooming down to specific articles as needed, and via classification using Stochastic Gradient Descent (SGD).
->>>>>>> 6a54fa21246de326d8e9c23def6479846e4f27d7
+Approach for the chatbot: 
+	
+	1. Communication channel 
+		- The chatbot can be accessed by the following channels.
+			* Web-based ( HTML ,CSS , AJAX Web technologies )
+			* Social media ( Telegram )
+	2. Display prompt ( Article , General queries ) 
+		- Article search 
+		- General queries
+	3. Ask for query based on action
+	4. Display output based on model genereated.
+	5. Suggestion chips generated for the next cycle.
+
+Approach for the Natural Language Processing -ML Algorithm: 
+
+	1: User can specify the keyword on which he/she needs to know infotmation on.
+	2: The huge database of publications, journals, books are then searched for 
+					this relevant content using spaCy-NLP method.
+	3:The data search can be of a) General information
+				    b) drug related information
+	4: The data is then clustered using clustering algorithms to send it back to the user.
+	5: The user receives a message with relevant journals/publication information sorted on their weights.
+	
