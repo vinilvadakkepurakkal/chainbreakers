@@ -1,7 +1,7 @@
 # Chainbreakers
 SAMHAR COVID-19 Hackathon
 
-#We are developing an interactive solution to assist health professional to get speedy, accurate and latest insights from huge amount of COVID-19 literatures.
+We are developing an interactive solution to assist health professional to get speedy, accurate and latest insights from huge amount of COVID-19 literatures.
 
 Given the large number of literature and the rapid spread of COVID-19, it is difficult for health professionals to keep up with new information on the virus. There are more than 44000 research articles already published and its growing. This is a very big challenge for a health care professional to get the speedy and accurate information from all the literature available in the world.  
 
