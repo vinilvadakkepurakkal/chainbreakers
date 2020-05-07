@@ -16,8 +16,8 @@ Approach for the chatbot:
 	
 	1. Communication channel 
 		- The chatbot can be accessed by the following channels.
-			* Web-based ( HTML ,CSS , AJAX Web technologies )
-			* Social media ( Telegram with Python Pipeline)
+			* Web-based (HTML ,CSS , AJAX Web technologies)
+			* Social media (Telegram with Python Pipeline)
 	2. Display prompt based upon suggestion chips . 
 		- Article search 
 		- General queries
